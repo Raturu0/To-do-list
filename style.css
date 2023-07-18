@@ -66,6 +66,18 @@ button:hover {
     font-size: 20px;
 }
 
+.ul_li li {
+    transition: all;
+    transition-duration: 1s;
+}
+
+.ul_li li:hover {
+    cursor: pointer;
+    transform: translateX(30px);
+}
+
+
+
 /* KELAS GARIS TENGAH */
 .garisTengah {
     text-decoration: line-through;
