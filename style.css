@@ -36,16 +36,16 @@
     font-weight: bold;
 }
 
-/* Aplikasi to do list */
+/* div class BLUE */
 .blue {
-  height: 300px;
+  height: 150px;
   background-color: blue;
   color: white;
   text-align: center;
 }
 
 .aplikasi {
-  margin-top: 150px;
+  margin-top: 0px;
   line-height: 100%;
   text-align: center;
 }
