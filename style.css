@@ -1,11 +1,12 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;500&display=swap');
   font-family: 'Pacifico', cursive;
   font-family: 'Poppins', sans-serif; */
+
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Pacifico", cursive;
-
 }
 
 .blue {
@@ -16,70 +17,71 @@
 }
 
 .aplikasi {
-    margin-top: 150px;
-    line-height: 100%;
-    text-align: center;
+  margin-top: 150px;
+  line-height: 100%;
+  text-align: center;
 }
 
 .apa {
-    text-align: center;
+  text-align: center;
 }
-
 
 /* masuk */
 .masuk {
-    margin-top: 10px;
-    text-align: center;
+  margin-top: 10px;
+  text-align: center;
 }
 .inputan {
-    border: 5px solid blueviolet;
-    border-radius: 10px;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 20px;
-    text-align: center;
+  border: 5px solid blueviolet;
+  border-radius: 10px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
 }
 
 button {
-    margin-top: 10px;
-    border-radius: 20px;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    transition: all;
-    transition-duration: 0.5s;
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all;
+  transition-duration: 0.5s;
 }
 
 button:hover {
-    cursor: pointer;
-    opacity: 0.7;
-    transform: scale(1.1);
+  cursor: pointer;
+  opacity: 0.7;
+  transform: scale(1.1);
 }
 
 /* Daftar */
-.ul_li {
-    height: 100px;
-    margin-top: 10px;
-    text-align: center;
-    font-size: 20px;
+.ul_li ul {
+  margin-left: 480px;
+  margin-top: 20px;
+  text-align: justify;
+  font-size: 20px;
+  width: 500px;
+  margin-bottom: 30px;
 }
 
 .ul_li li {
-    transition: all;
-    transition-duration: 1s;
+  transition: all;
+  transition-duration: 1s;
 }
 
 .ul_li li:hover {
-    cursor: pointer;
-    transform: translateX(30px);
+  cursor: pointer;
+  transform: translateX(30px);
+  color: blue;
+  font-weight: bold;
 }
-
-
 
 /* KELAS GARIS TENGAH */
 .garisTengah {
-    text-decoration: line-through;
-    opacity: 0.3;
+  text-decoration: line-through;
+  opacity: 0.3;
 }
