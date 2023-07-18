@@ -65,3 +65,9 @@ button:hover {
     text-align: center;
     font-size: 20px;
 }
+
+/* KELAS GARIS TENGAH */
+.garisTengah {
+    text-decoration: line-through;
+    opacity: 0.3;
+}
