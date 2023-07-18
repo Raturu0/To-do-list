@@ -9,6 +9,11 @@
   font-family: "Pacifico", cursive;
 }
 
+/* body */
+body {
+    background-color: rgb(161, 140, 140);
+}
+
 /* Menginputkan nama */
 .nama {
     height: 100px;
@@ -66,6 +71,7 @@
   font-weight: bold;
   font-size: 20px;
   text-align: center;
+  background-color: gold;
 }
 
 .add{
@@ -99,6 +105,10 @@ button:hover {
 .ul_li li {
   transition: all;
   transition-duration: 1s;
+  border: 5px solid green;
+  width:max-content;
+  border-radius: 10px;
+  background-color: lightblue;
 }
 
 .ul_li li:hover {
