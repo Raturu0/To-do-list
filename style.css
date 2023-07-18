@@ -2,13 +2,41 @@
   font-family: 'Pacifico', cursive;
   font-family: 'Poppins', sans-serif; */
 
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   font-family: "Pacifico", cursive;
 }
 
+/* Menginputkan nama */
+.nama {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nama label {
+    margin-left: 20px;
+}
+.nama input {
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid green;
+    margin-left: 10px;
+}
+
+.buttonNama {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid green;
+    background-color: green;
+    font-weight: bold;
+}
+
+/* Aplikasi to do list */
 .blue {
   height: 300px;
   background-color: blue;
@@ -26,7 +54,7 @@
   text-align: center;
 }
 
-/* masuk */
+/* Memasukkan inputan */
 .masuk {
   margin-top: 10px;
   text-align: center;
@@ -40,7 +68,7 @@
   text-align: center;
 }
 
-button {
+.add{
   margin-top: 10px;
   border-radius: 20px;
   background-color: black;

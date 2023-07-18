@@ -1,4 +1,13 @@
-// Ambil button
+// Ambil button menginput nama
+const buttonNama = document.querySelector(".buttonNama");
+
+// Ambil tag inputan nama
+const inputanNama = document.querySelector("#nama");
+
+// Ambil h2 untuk ganti nama
+const h2Nama = document.querySelector(".blue h2")
+
+// Ambil button menambah daftar
 const add = document.querySelector(".add");
 
 // Ambil ul
@@ -36,3 +45,10 @@ ul.addEventListener("click", function(e) {
         li.classList.toggle("garisTengah");
     }
 });
+
+buttonNama.addEventListener("click", function() {
+    h2Nama.innerHTML = `Selamat datang, ${inputanNama.value}`;
+});
+
+
+
