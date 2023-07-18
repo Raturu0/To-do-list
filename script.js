@@ -1,3 +1,6 @@
+// Ambil div class:nama jika sudah diklik untuk dihilangkan
+const divNama = document.querySelector(".nama");
+
 // Ambil button menginput nama
 const buttonNama = document.querySelector(".buttonNama");
 
@@ -13,6 +16,14 @@ const add = document.querySelector(".add");
 // Ambil ul
 const ul = document.querySelector("ul");
 
+
+// Menginputkan nama dan hilangkan div
+buttonNama.addEventListener("click", function() {
+    h2Nama.innerHTML = `Selamat datang, ${inputanNama.value}`;
+    divNama.remove();
+});
+
+// Menambahkan daftar
 let i = 0;
 add.addEventListener("click", function () {
   const inputan = document.querySelector(".inputan");
@@ -38,7 +49,7 @@ add.addEventListener("click", function () {
 });
 
 
-
+// Memberikan garis tengah jika daftar diklik
 ul.addEventListener("click", function(e) {
     const li = e.target.closest("li");
     if(li) {
@@ -46,9 +57,6 @@ ul.addEventListener("click", function(e) {
     }
 });
 
-buttonNama.addEventListener("click", function() {
-    h2Nama.innerHTML = `Selamat datang, ${inputanNama.value}`;
-});
 
 
 
