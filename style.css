@@ -45,7 +45,7 @@ body {
 .blue {
   height: 150px;
   background-color: blue;
-  color: white;
+  color: rgb(214, 209, 209);
   text-align: center;
 }
 
