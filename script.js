@@ -24,7 +24,6 @@ buttonNama.addEventListener("click", function() {
 });
 
 // Menambahkan daftar
-let i = 0;
 add.addEventListener("click", function () {
   const inputan = document.querySelector(".inputan");
   console.log(inputan.value);
@@ -32,13 +31,11 @@ add.addEventListener("click", function () {
   // Ambil Li
   const li = document.createElement("li");
   // Isikan text ke li
-  const text_li = document.createTextNode(`${i + 1}. ${inputan.value}`);
-  i++;
+  const text_li = document.createTextNode(`${inputan.value}`);
 
   // Jika inputan kosong
   if (inputan.value == "") {
     alert("gagal menambahkan, silahkan mengisi inputan");
-    i--;
     exit;
   }
   // masukkan text ke li
@@ -54,8 +51,13 @@ ul.addEventListener("click", function(e) {
     const li = e.target.closest("li");
     if(li) {
         li.classList.toggle("garisTengah");
-    }
+        setTimeout(() => {
+            li.remove();
+        }, 1000);
+    }   
 });
+
+// Menghilangkan daftar ketika diklik
 
 
 
