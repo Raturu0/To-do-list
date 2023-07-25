@@ -13,7 +13,6 @@
   width: 500px;
   margin: auto;
   overflow: hidden;
-  height: 610px;
 }
 /* Menginputkan nama */
 .nama {
@@ -46,9 +45,11 @@
 .atas {
   padding-bottom: 5px;
   margin-bottom: 10px;
-  background-color: #c5c5c5;
+  margin-top: 20px;
   border-radius: 20px;
+  background-color: #c5c5c5;
 }
+
 /* div class BLUE */
 .blue {
   height: 130px;
@@ -102,8 +103,9 @@ button:hover {
 /* BAWAH */
 .bawah {
   background-color: #c5c5c5;
-  height: 500px;
   border-radius: 20px;
+  overflow: hidden;
+  height: 500px;
 }
 /* Daftar */
 .ul_li ul {
@@ -118,11 +120,14 @@ button:hover {
   transition: all;
   transition-duration: 1s;
   width:max-content;
-  background-color: lightblue;
+  background-color: aqua;
+  margin-left: 2.5%;
+  border-radius: 20px;
   list-style: none;
-  width: 100%;
+  width: 90%;
   text-align: center;
   padding: 10px;
+  margin-top: 3px;
 }
 
 .ul_li li:hover {
