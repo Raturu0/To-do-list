@@ -50,14 +50,14 @@ add.addEventListener("click", function () {
 ul.addEventListener("click", function(e) {
     const li = e.target.closest("li");
     if(li) {
-        li.classList.toggle("garisTengah");
-        setTimeout(() => {
+      li.classList.toggle("garisTengah");
+      setTimeout(() => {
+          // Menghilangkan daftar ketika diklik
             li.remove();
         }, 1000);
     }   
 });
 
-// Menghilangkan daftar ketika diklik
 
 
 

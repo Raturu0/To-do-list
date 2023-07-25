@@ -9,11 +9,12 @@
   font-family: "Pacifico", cursive;
 }
 
-/* body */
-body {
-    background-color: rgb(161, 140, 140);
+.container {
+  width: 500px;
+  margin: auto;
+  overflow: hidden;
+  height: 610px;
 }
-
 /* Menginputkan nama */
 .nama {
     height: 100px;
@@ -41,11 +42,16 @@ body {
     font-weight: bold;
 }
 
+/* ATAS */
+.atas {
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  background-color: #c5c5c5;
+  border-radius: 20px;
+}
 /* div class BLUE */
 .blue {
-  height: 150px;
-  background-color: blue;
-  color: rgb(214, 209, 209);
+  height: 130px;
   text-align: center;
 }
 
@@ -53,6 +59,7 @@ body {
   margin-top: 0px;
   line-height: 100%;
   text-align: center;
+  padding-top: 20px;
 }
 
 .apa {
@@ -92,9 +99,14 @@ button:hover {
   transform: scale(1.1);
 }
 
+/* BAWAH */
+.bawah {
+  background-color: #c5c5c5;
+  height: 500px;
+  border-radius: 20px;
+}
 /* Daftar */
 .ul_li ul {
-  margin-left: 480px;
   margin-top: 20px;
   text-align: justify;
   font-size: 20px;
@@ -105,10 +117,12 @@ button:hover {
 .ul_li li {
   transition: all;
   transition-duration: 1s;
-  border: 5px solid green;
   width:max-content;
-  border-radius: 10px;
   background-color: lightblue;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
 }
 
 .ul_li li:hover {
